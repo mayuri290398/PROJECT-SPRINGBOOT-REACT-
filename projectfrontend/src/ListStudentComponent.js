@@ -28,6 +28,7 @@ import React, { Component } from 'react';
                                      <th>STUDENT LAST NAME</th>
                                      <th>STUDENT EMAIL ID</th>
                                      <th>STUDENT DEPARTMENT</th>
+                                     <th>STUDENT CITY</th>
                                      </tr>
                             </tbody>
                             <tbody>
@@ -39,6 +40,7 @@ import React, { Component } from 'react';
                                         <td>{students.lastName}</td>
                                         <td>{students.emailId}</td>
                                         <td>{students.department}</td>
+                                        <td>{students.city}</td>
                                         </tr>
                                     )
                                 }
